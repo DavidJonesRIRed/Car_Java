@@ -14,5 +14,12 @@ public class Main {
 
         myCar.whatKindOfCar();
 
+        VolksWagen myVdub = new VolksWagen(4,2,5);
+
+        //VolksWagen myVdub = new VolksWagen();
+
+        myVdub.showVolksWagen();
+        myVdub.whatKindOfCar();
+
     }
 }
