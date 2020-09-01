@@ -21,5 +21,9 @@ public class Main {
         myVdub.showVolksWagen();
         myVdub.whatKindOfCar();
 
+        Toyota myToyota = new Toyota(6,5,3,"I love it", "Left");
+
+        myToyota.showToyota();
+        myToyota.whatKindOfCar();
     }
 }
